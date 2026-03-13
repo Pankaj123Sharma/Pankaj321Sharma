@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>BioInnovate Research Training Institute</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial;
+    background:#f4f8fb;
+}
+
+header{
+    background:#0b3d91;
+    color:white;
+    padding:15px;
+    text-align:center;
+}
+
+nav{
+    background:#062a63;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    margin:15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+section{
+    padding:40px;
+}
+
+h2{
+    color:#0b3d91;
+}
+
+.hero{
+    background:linear-gradient(#0b3d91,#0f6ab4);
+    color:white;
+    padding:60px;
+    text-align:center;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin:15px;
+    border-radius:8px;
+    box-shadow:0 0 5px gray;
+}
+
+.container{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+form input, form textarea{
+    width:100%;
+    padding:10px;
+    margin:5px;
+}
+
+button{
+    background:#0b3d91;
+    color:white;
+    padding:10px;
+    border:none;
+}
+
+footer{
+    background:#062a63;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<header>
+<h1>BioInnovate Research Training Institute</h1>
+<p>Biotechnology & Bioinformatics Research Based Training</p>
+</header>
+
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#training">Training</a>
+<a href="#research">Research</a>
+<a href="#internship">Internship</a>
+<a href="#apply">Apply</a>
+<a href="#contact">Contact</a>
+</nav>
+
+
+<div class="hero" id="home">
+<h2>Welcome to Research Based Training Institute</h2>
+<p>Internship | Project | Dissertation | Publication | Bioinformatics | Biotechnology</p>
+</div>
+
+
+
+<section id="about">
+<h2>About Us</h2>
+
+<p>
+We provide research based training in Biotechnology, Bioinformatics,
+Microbiology, Molecular Biology, and Life Sciences.
+
+Our training focuses on practical learning, real research work,
+and publication support.
+</p>
+
+</section>
+
+
+
+<section id="training">
+
+<h2>Training Programs</h2>
+
+<div class="container">
+
+<div class="card">
+<h3>Biotechnology</h3>
+PCR<br>
+DNA Isolation<br>
+Gel Electrophoresis<br>
+Protein Analysis<br>
+Cell Culture
+</div>
+
+<div class="card">
+<h3>Bioinformatics</h3>
+BLAST<br>
+Sequence Analysis<br>
+Docking<br>
+Protein Structure<br>
+NCBI Tools
+</div>
+
+<div class="card">
+<h3>Microbiology</h3>
+Culture Techniques<br>
+Staining<br>
+Media Preparation<br>
+Antibiotic Test
+</div>
+
+<div class="card">
+<h3>Project Training</h3>
+BSc Project<br>
+MSc Dissertation<br>
+PhD Support<br>
+Paper Writing
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="research">
+
+<h2>Research Areas</h2>
+
+<ul>
+<li>Molecular Biology</li>
+<li>Bioinformatics</li>
+<li>Drug Design</li>
+<li>Food Biotechnology</li>
+<li>Environmental Biotechnology</li>
+<li>Immunology</li>
+<li>Genomics</li>
+<li>Proteomics</li>
+</ul>
+
+</section>
+
+
+
+<section id="internship">
+
+<h2>Internship Program</h2>
+
+Duration:
+
+<ul>
+<li>15 Days</li>
+<li>1 Month</li>
+<li>3 Months</li>
+<li>6 Months</li>
+</ul>
+
+Mode:
+
+<ul>
+<li>Online</li>
+<li>Offline</li>
+<li>Hybrid</li>
+</ul>
+
+Certificate + Project + Publication Support
+
+</section>
+
+
+
+<section id="apply">
+
+<h2>Apply Now</h2>
+
+<form>
+
+Name:<br>
+<input type="text">
+
+Email:<br>
+<input type="text">
+
+Phone:<br>
+<input type="text">
+
+Course:<br>
+<input type="text">
+
+Message:<br>
+<textarea></textarea>
+
+<button>Submit</button>
+
+</form>
+
+</section>
+
+
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+BioInnovate Research Training Institute<br>
+Delhi, India<br><br>
+
+Email: bioinnovate@gmail.com<br>
+Phone: +91 XXXXX XXXXX
+
+</section>
+
+
+
+<footer>
+
+© 2026 BioInnovate Research Training Institute
+
+</footer>
+
+
+
+</body>
+</html>
